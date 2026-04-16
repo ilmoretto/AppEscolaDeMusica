@@ -1,6 +1,6 @@
 ﻿namespace AppEscolaDeMusica.Models
 {
-    public class DisponibilidadeProf
+    public class Ministra
     {
     }
 }

@@ -3,12 +3,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AppEscolaDeMusica.Models
 {
-    public class Turma
+    public class DisponibilidadeProfessor
     {
-        [Column("status_turma")]
-        public StatusTurmaEnum StatusTurma { get; set; }
-
         [Column("dia_semana")]
         public DiaSemanaEnum DiaSemana { get; set; }
+        [Column("status_disp")]
+        public StatusDisponibilidadeEnum StatusDisp { get; set; }
+
+
     }
 }
